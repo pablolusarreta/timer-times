@@ -1,0 +1,89 @@
+{
+    "inicio": {
+        "titulo": "timer-times.com",
+        "secciones": [
+            "Informazioa",
+            "Ordutegiak",
+            "Dias",
+            "Egutegia"
+        ],
+        "estilo": [
+            "argi",
+            "iluna"
+        ],
+        "alertas": [
+            "Zure nabigatzaileak ez tokiko biltegiratze onartzen, sartzen duzun informazioa galdu egingo da off saioa.\nEz hau saihesteko azken belaunaldiko nabigatzaile bat erabili behar gertatzea nahi duzun.",
+            "Zure arakatzaileak ez ditu tokiko fitxategien erabilera onartzen, beraz, ezin dituzu zure soinuak aukeratu.\nEzin nahi baduzu, azken belaunaldiko arakatzailea erabili behar duzu."
+        ]
+    },
+    "descripcion": "<H1> Kaixo Beno zatoz tenporizadorea-aldiz </h1> <p> Hau ez da egunkari bat zegoen, baina tresna bat entzungai alarmak ezartzeko modu aurreratuan <h3> Zer web hau egin dezakezu? </h3> programatu ahal izango duzu alarmak soinua egunero ordu jakin batean, zure elijas.Puedes daten arteko aldiak, asteko egun eta exepcional egunetan zehazten duten soinuak nahi duzunean soinu . Elio guztiak gelditzen alamacenado lokalean, beraz, off-line funtzionatzeko jarraitzen du, arazo bat izan baduzu ere zure confuguracion online berreskuratu ahal izango dituzu. <h3> nor zuzenduta? </h3> zure bulegoan eskola, Academia badaukazu Fabrica edo ordutegi bat egokitu behar duen beste cuaquier konpainiak. <h3> nola du funtzionatzen du? </h3> Taking abantaila funtzionalitate HTML5 \"tokiko\" zure datuak gorde lokalean lineaz kanpo erabiltzeko, guztiak egin behar duzun kontuan izan arakatzaile bakoitzak biltegiratze propioa duela </p> ",
+    "creacion": {
+        "horarios": "Ordutegiak",
+        "dia_s": [
+            "Dias",
+            "Kolore",
+            "Deskribapena",
+            "Egun mota deskribapena"
+        ],
+        "dia_cab": [
+            "Kolore",
+            "Deskribapena"
+        ],
+        "anio": "Urtea",
+        "meses": [
+            "Urtarrila",
+            "Otsaila",
+            "March",
+            "April",
+            "Maiatza",
+            "June",
+            "Julio",
+            "Abuztua",
+            "September",
+            "Urria",
+            "Azaroa",
+            "Abenduan"
+        ],
+        "dias": [
+            "Astelehena",
+            "Asteartea",
+            "Asteazkena",
+            "Osteguna",
+            "Ostirala",
+            "Larunbata",
+            "Igandea"
+        ],
+        "eliminar": "Ezabatu ordutegia",
+        "superado": "ordu kopurua gainditu da",
+        "menu_dia": [
+            "Epearen hasiera",
+            "Etenaldiaren amaiera",
+            "Egun berezia"
+        ],
+        "formulario": [
+            "OK",
+            "Utzi",
+            "Aktibazioa",
+            "e-mail",
+            "Clave",
+            "Eliminar Caché",
+            "Eliminar Datos",
+            "¡ La app no esta activada en esta maquina !, introduce tus datos de acceso y pulsa en \"Activar\"<br>Cuenta atras ...<span id=\"caduca\"></span><br><button onclick=\"login()\">Activar</button>",
+            "Activar",
+            "Se eliminarán todos los datos como periodos, dias especiales, horarios, definiciones de dias, asignación de sonidos etc ..",
+            "tambien se eliminarán todas tus credenciales como el e-mail y la contraseña",
+            "Aplicacion activada",
+            "Cache eliminada!",
+            "Datos eliminados!",
+            "Todo correcto ....",
+            "¡ La app no esta activada en esta maquina !<br>Ten en cuenta que esta app solo puede estar activa en un equipo al mismo tiempo !<br>¿Quieres activarla en este equipo?"
+        ],
+        "no_eventos": "Ekitaldi gabeko eguna",
+        "errores": [
+            "Gutxienez programazio bat hautatu behar duzu",
+            "Gutxienez asteko egun bat hautatu behar duzu",
+            "No se puede comprovar el permiso de la aplicacion, conectate a Internet y reinicia el programa.",
+            "La aplicacion dejara de funcionar - ponte en contacto con el administrador: <pablo.lusarreta@gmail.com>"
+        ]
+    }
+}

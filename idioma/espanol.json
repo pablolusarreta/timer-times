@@ -1,0 +1,89 @@
+{
+    "inicio": {
+        "titulo": "timer-times.com",
+        "secciones": [
+            "Información",
+            "Horarios",
+            "Dias",
+            "Calendario"
+        ],
+        "estilo": [
+            "claro",
+            "oscuro"
+        ],
+        "alertas": [
+            "Error de almacenamiento ex001",
+            "Error de almacenamiento ex002"
+        ]
+    },
+    "descripcion": "<p>Herramienta para programar alarmas sonoras de una manera avanzada.<h3>Lo que hace esta app:</h3>Puedes programarla para que suene  una alarma todos los dias a unas horas concretas, con unos sonidos que tu elijas.Puedes determinar periodos entre fechas, dias de la semana y dias exepcionales para que suene cuando tu quieras. Todo elio queda alamacenado localmente de manera que sigue funcionando  off-line, aunque si tienes un problema puedes recuperar tu confuguracion on-line.<h3>Es útil para:</h3>Si tienes a tu cargo una Escuela, Academia, Fabrica o cuaquier otra empresa que necesite ajustarse a unos horarios.</p>",
+    "creacion": {
+        "horarios": "Horario",
+        "dia_s": [
+            "Dias",
+            "Color",
+            "Descripción",
+            "Descripción del tipo de dia"
+        ],
+        "dia_cab": [
+            "Color",
+            "Descripción"
+        ],
+        "anio": "Año",
+        "meses": [
+            "Enero",
+            "Febrero",
+            "Marzo",
+            "Abril",
+            "Mayo",
+            "Junio",
+            "Julio",
+            "Agosto",
+            "Septiembre",
+            "Octubre",
+            "Noviembre",
+            "Diciembre"
+        ],
+        "dias": [
+            "Lunes",
+            "Martes",
+            "Miercoles",
+            "Jueves",
+            "Viernes",
+            "Sabado",
+            "Domingo"
+        ],
+        "eliminar": "Eliminar el horario ",
+        "superado": "Numero de horarios máximo superado",
+        "menu_dia": [
+            "Inicio de Periodo",
+            "Fin de Periodo",
+            "Dia especial"
+        ],
+        "formulario": [
+            "Aceptar",
+            "Cancelar",
+            "Activación",
+            "e-mail",
+            "Clave",
+            "Eliminar Caché",
+            "Eliminar Datos",
+            "¡ La app no esta activada en esta maquina !, introduce tus datos de acceso y pulsa en \"Activar\"<br>Cuenta atras ...<span id=\"caduca\"></span><br><button onclick=\"login()\">Activar</button>",
+            "Activar",
+            "Se eliminarán todos los datos como periodos, dias especiales, horarios, definiciones de dias, asignación de sonidos etc ..",
+            "tambien se eliminarán todas tus credenciales como el e-mail y la contraseña",
+            "Aplicacion activada",
+            "Cache eliminada!",
+            "Datos eliminados!",
+            "Todo correcto ....",
+            "¡ La app no esta activada en esta maquina !<br>Ten en cuenta que esta app solo puede estar activa en un equipo al mismo tiempo !<br>¿Quieres activarla en este equipo?"
+        ],
+        "no_eventos": "Dia sin eventos",
+        "errores": [
+            "Debes seleccionar por lo menos un horario",
+            "Debes seleccionar por lo menos un día de la semana",
+            "No se puede comprovar el permiso de la aplicacion, conectate a Internet y reinicia el programa.",
+            "La aplicacion ha dejado de funcionar"
+        ]
+    }
+}

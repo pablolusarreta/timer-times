@@ -1,0 +1,30 @@
+{
+  "name": "timer-times",
+  "version": "6.0.0",
+  "description": "timer programable",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Pablo Lusarreta",
+  "license": "MIT",
+  "build": {
+    "appId": "lusarreta.net",
+    "asar": true,
+    "win": {
+      "target": "NSIS",
+      "icon": "assets/icons/win/icon.ico"
+    }
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "mongoose": "^5.10.11"
+
+  },
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "electron-builder": "^21.2.0"
+  }
+}

@@ -1,0 +1,161 @@
+{
+    "configuracion": {
+        "idiomas": [
+            [
+                "Español",
+                "../idioma/espanol.json"
+            ],
+            [
+                "English",
+                "../idioma/ingles.json"
+            ],
+            [
+                "Euskera",
+                "../idioma/euskera.json"
+            ]
+        ],
+        "activacion_info_sel": 7,
+        "idioma_sel": 0,
+        "color_sel": 0,
+        "menu_sel": 0,
+        "estilo_sel": 1,
+        "horarios": [
+            [
+                8,
+                30,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/alarma.wav"
+            ],
+            [
+                9,
+                0,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/timbre.wav",
+                0
+            ],
+            [
+                10,
+                15,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                11,
+                45,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                12,
+                30,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                16,
+                0,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                17,
+                0,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                18,
+                0,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                19,
+                0,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ],
+            [
+                20,
+                30,
+                "file://C:/nodejs/electron/timer-times-V5/sonido/sirena.wav",
+                0
+            ]
+        ],
+        "colores": [
+            [
+                "#f3f3f3",
+                "#fcc",
+                "#cfc",
+                "#ccf",
+                "#ff9",
+                "#f9f",
+                "#9ff",
+                "#fc9",
+                "#9cf"
+            ],
+            [
+                "#bbb",
+                "#a88",
+                "#8a8",
+                "#88a",
+                "#aa8",
+                "#a8a",
+                "#8aa",
+                "#b8a",
+                "#89a"
+            ]
+        ],
+        "descripciones": [
+            "Dia normal",
+            "Festivo",
+            "Puente",
+            "Vacaciones",
+            "Amarillo",
+            "Violeta",
+            "Aguamar",
+            "Carne",
+            "Azul"
+        ],
+        "periodos": [
+            [
+                1577833200000,
+                1609369200000,
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                2
+            ]
+        ],
+        "dias": [],
+        "estilo": [
+            "css/claro.css",
+            "css/oscuro.css"
+        ]
+    },
+    "identidad": {
+        "e_mail": "",
+        "clave": "",
+        "app_id": "5f92e0c1666744723d616a4d",
+        "modificado": 0,
+        "app": "timer-times",
+        "version": "6.0.0",
+        "caduca": 3600000
+    }
+}

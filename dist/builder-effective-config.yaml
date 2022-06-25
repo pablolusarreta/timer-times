@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: lusarreta.net
+asar: true
+win:
+  target: NSIS
+  icon: assets/icons/win/icon.ico
+electronVersion: 7.1.7

@@ -1,0 +1,89 @@
+{
+    "inicio": {
+        "titulo": "timer-times.com",
+        "secciones": [
+            "Information",
+            "Schedules",
+            "Days",
+            "Calendar"
+        ],
+        "estilo": [
+            "light",
+            "dark"
+        ],
+        "alertas": [
+            "Error de almacenamiento ex001",
+            "Error de almacenamiento ex002"
+        ]
+    },
+    "descripcion": "<h1> Hello, well -come to timer-times! </h1> <p> This is not the website of a newspaper, but a tool to program sound alarms in an advanced way. <h3> What can this website do? </h3> You can program it to sound an alarm every day at a specific time, with sounds that you choose. You can determine periods between dates, days of the week and exceptional days so that it sounds when you want. Everything is stored locally so that it continues to work off-line, although if you have a problem you can recover your online configuration. <H3> To whom is it directed? </H3> If you are in charge of a School, Academy, Fabrica or any other company that needs to adjust to a schedule. <H3> How it works? </H3> Taking advantage of an HTML5 functionality \"localstorage\" save your data locally to use them without connection, the only thing you have to have in account is that each browser has its own storage </p>",
+    "creacion": {
+        "horarios": "Schedule",
+        "dia_s": [
+            "Days",
+            "Colour",
+            "Description",
+            "Description of the type of day"
+        ],
+        "dia_cab": [
+            "Colour",
+            "Description"
+        ],
+        "anio": "Year",
+        "meses": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "dias": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "eliminar": "Delete the schedule",
+        "superado": "Number of hours exceeded",
+        "menu_dia": [
+            "Start of Period",
+            "End of Period",
+            "Special day"
+        ],
+        "formulario": [
+            "To accept",
+            "Cancel",
+            "Activation",
+            "e-mail",
+            "Clave",
+            "Eliminar Caché",
+            "Eliminar Datos",
+            "¡ La app no esta activada en esta maquina !, introduce tus datos de acceso y pulsa en \"Activar\"<br>Cuenta atras ...<span id=\"caduca\"></span><br><button onclick=\"login()\">Activar</button>",
+            "Activar",
+            "Se eliminarán todos los datos como periodos, dias especiales, horarios, definiciones de dias, asignación de sonidos etc ..",
+            "tambien se eliminarán todas tus credenciales como el e-mail y la contraseña",
+            "Aplicacion activada",
+            "Cache eliminada!",
+            "Datos eliminados!",
+            "Todo correcto ....",
+            "¡ La app no esta activada en esta maquina !<br>Ten en cuenta que esta app solo puede estar activa en un equipo al mismo tiempo !<br>¿Quieres activarla en este equipo?"
+        ],
+        "no_eventos": "Day without events",
+        "errores": [
+            "You must select at least one schedule",
+            "You must select at least one day of the week",
+            "No se puede comprovar el permiso de la aplicacion, conectate a Internet y reinicia el programa.",
+            "La aplicacion dejara de funcionar - ponte en contacto con el administrador: <pablo.lusarreta@gmail.com>"
+        ]
+    }
+}

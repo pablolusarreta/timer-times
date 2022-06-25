@@ -1,0 +1,9 @@
+// Crear nuevo usuario:
+
+mongoose-atlas => autentificacion-app => usuarios
+{
+    "e_mail": "1",
+    "clave": "1",
+    "app_id": "5f92e0c1666744723d616a4d",
+    "modificado": 0
+}

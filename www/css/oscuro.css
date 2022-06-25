@@ -1,0 +1,253 @@
+/*--------------------- BODY ---------------------*/
+
+body, table {
+    background-color: #222;
+    color: #fff;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #000;
+    border: 1px solid #fff;
+    font-weight: 100;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    padding: 1px 5px 2px 5px;
+    bottom: -1.6em;
+    left: -20%;
+    white-space: nowrap;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+[data-title] {
+    position: relative;
+}
+
+button {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+button:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+select, option {
+    color: #fff;
+    background-color: #222;
+}
+
+#logo>div {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#lateral {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#lateral_fondo {
+    background-color: #555;
+}
+
+/*IDIOMAS----------------------------------------------------------*/
+
+#idioma {
+    background-color: #444;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+#idioma>span, #estilo>span {
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+#idioma>span:hover, #idioma>span.idioma_sel, #estilo>span:hover, #estilo>span.estilo_sel {
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+/*BOTONES           ---------------------------------------------*/
+
+#botones>div {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, 0);
+    transition: border-bottom-color 1s;
+}
+
+/*RELOG----------------------------------------------------*/
+
+#relog {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#relog>div:nth-child(1)>div, #relog>div:nth-child(2)>div, #relog>div:nth-child(3)>div {
+    background-color: #fff;
+}
+
+#relog>div:nth-child(4)>div>div {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#informacion_dia>tbody>tr>td:nth-child(1)>span {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/*CONTENIDO -----------------------------------------------------*/
+
+/*CALENDARIO */
+
+#anios>table {
+    border: 1px solid #666;
+    box-shadow: 6px 6px 10px #000;
+}
+
+#anios>table>tbody>tr>td.hoy {
+    outline: 2px solid #333;
+}
+
+/*/////////////////////////////////////////////////*/
+
+#horarios>table {
+    border: 1px solid #000;
+    box-shadow: 4px 4px 10px #000;
+}
+
+#horarios>h3>div {
+    color: #fff;
+}
+
+#horarios>h3>div:hover {
+    color: #ccc;
+}
+
+#horarios>table>tbody>tr>td {
+    border-bottom: 1px solid #000;
+}
+
+#horarios>table>tbody>tr>td:nth-child(1) {
+    background-color: #666;
+    color: #fff;
+}
+
+#horarios>table>tbody>tr>td:nth-child(4)>div {
+    color: #666;
+}
+
+#horarios>table>tbody>tr>td:nth-child(4)>div:hover {
+    color: #900;
+}
+
+/*  D I A  S E G U N C O L O R ---------------------------------------------*/
+
+#dia>table>tbody>tr>td {
+    background-color: transparent;
+    /*border: 1px solid #fff;*/
+}
+
+#dia>table>tbody>tr>td>input {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+#dia>table>tbody>tr>td:nth-child(1) {
+    color: #fff;
+}
+
+#dia>table>tbody>tr>td:nth-child(2) {
+    background-color: transparent;
+}
+
+#dia>table>tbody>tr>td:nth-child(2)>input {
+    border: 2px solid #330;
+}
+
+/*  D I A S ---------------------------------------------*/
+
+#editor_dias {
+    background-color: #222;
+    box-shadow: 6px 6px 10px #111;
+}
+
+#editor_dias>div:nth-child(1) {
+    color: #666;
+}
+
+#editor_dias>div:nth-child(1):hover {
+    color: #ccc;
+}
+
+/*ELEMENTOS DEL DESPLEGABLE*/
+
+#editor_dias>table>tbody>tr>td>input:disabled {
+    opacity: 0.2;
+}
+
+/*COLORES*/
+
+.color0 {
+    background-color: #999;
+}
+
+.color1 {
+    background-color: #a88;
+}
+
+.color2 {
+    background-color: #8a8;
+}
+
+.color3 {
+    background-color: #88a;
+}
+
+.color4 {
+    background-color: #aa8;
+}
+
+.color5 {
+    background-color: #a8a;
+}
+
+.color6 {
+    background-color: #8aa;
+}
+
+.color7 {
+    background-color: #b8a;
+}
+
+.color8 {
+    background-color: #89a;
+}
+
+/*spectro*/
+
+#audio-spectrum {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#alertas {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#alertas>div {
+    background-color: #222;
+}
+#txt_alertas {
+
+    color: #fff;
+}
+#activacion {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}

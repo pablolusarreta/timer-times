@@ -1,0 +1,241 @@
+/*--------------------- BODY ---------------------*/
+
+body, table {
+    background-color: #fff;
+    color: #000;
+}
+
+/*--------------------- HTML ---------------------*/
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    position: absolute;
+    content: attr(data-title);
+    display: block;
+    background-color: #fff;
+    border: 1px solid #666;
+    color: #000;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 1px 5px 2px 5px;
+    bottom: 1.2em;
+    left: -20%;
+    white-space: nowrap;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+[data-title] {
+    position: relative;
+}
+
+button {
+    color: #333;
+}
+
+button:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#logo>div {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#lateral {
+    background-color: rgba(255, 0, 80, 0.3);
+    background-color: rgba(00, 80, 80, 0.3);
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+#lateral_fondo {
+    background-color: #fff;
+}
+
+/*IDIOMAS Y ESTIILOS----------------------------------------------------------*/
+
+#idioma {
+    background-color: #e0efef;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#idioma>span, #estilo>span {
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+#idioma>span:hover, #idioma>span.idioma_sel, #estilo>span:hover, #estilo>span.estilo_sel {
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}
+
+/*BOTONES           ---------------------------------------------*/
+
+#botones>div {
+    border-bottom-color: rgba(0, 0, 0, 0);
+    transition: border-bottom-color 1s;
+}
+
+/*RELOG----------------------------------------------------*/
+
+#relog {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#relog>div:nth-child(1)>div, #relog>div:nth-child(2)>div, #relog>div:nth-child(3)>div {
+    background-color: #fff;
+}
+
+#relog>div:nth-child(4)>div>div {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#informacion_dia>tbody>tr>td:nth-child(1)>span {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/*CONTENIDO -----------------------------------------------------*/
+
+/*CALENDARIO */
+
+#anios>table {
+    border: 1px solid #666;
+    box-shadow: 6px 6px 10px #ccc;
+}
+
+#anios>table>tbody>tr>td.hoy {
+    outline: 2px solid #333;
+}
+
+/*/////////////////////////////////////////////////*/
+
+#horarios>table {
+    border: 1px solid #666;
+    box-shadow: 4px 4px 10px #ccc;
+}
+
+#horarios>h3>div:hover {
+    color: #9bb;
+}
+
+#horarios>table>tbody>tr>td {
+    border-bottom: 1px solid #666;
+}
+
+#horarios>table>tbody>tr>td:nth-child(1) {
+    background-color: #ccc;
+    color: #fff;
+}
+
+#horarios>table>tbody>tr>td:nth-child(4)>div {
+    color: #666;
+}
+
+#horarios>table>tbody>tr>td:nth-child(4)>div:hover {
+    color: #900;
+}
+
+/*  D I A  S E G U N C O L O R ---------------------------------------------*/
+
+#dia>table>tbody>tr>td {
+    /*border: 1px solid #666;
+    box-shadow: 4px 4px 10px #ccc;*/
+}
+
+#dia>table>tbody>tr>td:nth-child(1) {
+    border: 1px solid #666;
+}
+
+#dia>table>tbody>tr>td:nth-child(2) {
+    background-color: #fff;
+}
+
+#dia>table>tbody>tr>td:nth-child(2)>input {
+    border: 2px solid #e0e0e0;
+}
+
+/*  D I A S ---------------------------------------------*/
+
+#editor_dias {
+    background-color: #fff;
+    box-shadow: 6px 6px 10px #ccc;
+}
+
+#editor_dias>div:nth-child(1) {
+    color: #666;
+}
+
+#editor_dias>div:nth-child(1):hover {
+    color: #ccc;
+}
+
+/*COLORES*/
+
+.color0 {
+    background-color: #f3f3f3;
+}
+
+.color1 {
+    background-color: #fcc;
+}
+
+.color2 {
+    background-color: #cfc;
+}
+
+.color3 {
+    background-color: #ccf;
+}
+
+.color4 {
+    background-color: #ff9;
+}
+
+.color5 {
+    background-color: #f9f;
+}
+
+.color6 {
+    background-color: #9ff;
+}
+
+.color7 {
+    background-color: #fc9;
+}
+
+.color8 {
+    background-color: #9cf;
+}
+
+/*spectro*/
+
+#audio-spectrum {
+    background-color: rgba(00, 80, 80, 0.1);
+}
+
+#alertas {
+    background-color: rgba(255, 255, 255, 0.9);
+    filter: blur(100);
+}
+
+#alertas>div {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#txt_alertas {
+    color: #000;
+}
+
+#activacion {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+}

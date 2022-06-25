@@ -1,0 +1,12 @@
+use('Autentificacion-apps')
+db.usuarios.find({})
+
+use('Autentificacion-apps')
+db.aplicaciones.find({})
+
+//----------------------------------------------
+use('Autentificacion-apps')
+db.aplicaciones.insert({
+    "nombre": "nextevent",
+    "notas": "Reproductor de secuencias multimedia"
+  })
