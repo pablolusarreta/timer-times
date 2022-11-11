@@ -10,3 +10,12 @@ db.aplicaciones.insert({
     "nombre": "nextevent",
     "notas": "Reproductor de secuencias multimedia"
   })
+
+  use('Autentificacion-apps')
+db.usuarios.insert({
+    "e_mail": "invitado",
+    "clave": "1234",
+    "app_id": "5f92e0c1666744723d616a4d",
+    "app":"timer-times",
+    "caduca": 3600000
+})
